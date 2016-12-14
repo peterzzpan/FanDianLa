@@ -41,6 +41,7 @@ public class AddPrinterPresenter extends BasePresenter{
     public AddPrinterPresenter(IAddPrinterView addPrinterView){
         this.mAddPrinterView = addPrinterView;
         mDBHelper = new BTPrinterPrviderHelper();
+
     }
 
 
