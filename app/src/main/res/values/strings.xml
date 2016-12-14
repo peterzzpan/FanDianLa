@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FanDianLa</string>
+    <string name="empty_printer">未设置打印机</string>
+    <string name="fandianle_printer">饭点了打印机</string>
+    <string name="reception_printer">添加前台打印机</string>
+    <string name="kitchen_printer">添加后厨打印机</string>
+    <string name="bt_open">蓝牙开启</string>
+    <string name="bt_close">蓝牙关闭</string>
+    <string name="no_bt_devices">没有搜索到蓝牙设备</string>
+    <string name="bt_connect_fail">蓝牙连接失败！</string>
+    <string name="bt_connect_success">蓝牙连接成功！</string>
+    <string name="bt_pair_fail">蓝牙配对失败！</string>
+    <string name="bt_pair_success">蓝牙配对成功！</string>
+    <string name="bt_no_connect">设备未连接，请重新拦截！</string>
+    <string name="data_send_fail">数据发送失败！</string>
+    <string name="start_print_text_data">开始打印测试数据</string>
+</resources>

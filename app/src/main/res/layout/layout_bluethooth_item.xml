@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/bt_state"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="已配对"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_FF6A6A"
+        android:textSize="@dimen/text_size_middle"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/bluethooth_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/color_3B3B3B"
+        android:layout_weight="1.0"
+        android:text="蓝牙打印机"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/add_bluethooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_EEE5DE"
+        android:textSize="@dimen/text_size_large"
+        android:layout_margin="10dp"
+        android:text="添加"/>
+</LinearLayout>

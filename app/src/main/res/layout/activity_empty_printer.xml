@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_printer"
+        android:layout_centerInParent="true"
+        android:textColor="@color/color_FF6A6A"
+        android:textSize="@dimen/text_size_llarge"/>
+
+    <LinearLayout
+        android:id="@+id/reception_printer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_reception_printer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/add_kitchen_printer"
+        android:textColor="@color/color_3B3B3B"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/reception_printer"/>
+
+    <Button
+        android:id="@+id/add_kitchen_printer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color_3B3B3B"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/kitchen_printer"/>
+
+
+
+</RelativeLayout>
